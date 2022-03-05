@@ -46,6 +46,9 @@ source env/bin/activate
 docker-compose up --build
 ```
  
+ link to heroku
+ https://haker-news-kiri.herokuapp.com/
+ 
 test postman 
 
 http://0.0.0.0:8000/api/v1/post/ # create post, list post, update post, delete post
