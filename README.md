@@ -46,11 +46,12 @@ source env/bin/activate
 docker-compose up --build
 ```
  <h3> Link to HEROKU</h3> 
- https://haker-news-kiri.herokuapp.com/
+ https://hacker-news-kiri.herokuapp.com/
  
 <h3> Test Postman</h3>  
 
-https://haker-news-kiri.herokuapp.com/api/v1/post/ # create post, list post, update post, delete post
+https://hacker-news-kiri.herokuapp.com/api/v1/post/ # create post, list post, update post, delete post
 
-https://haker-news-kiri.herokuapp.com/api/v1/comment/ # create comment, list comment, update comment, delete comment
+https://hacker-news-kiri.herokuapp.com/api/v1/comment/ # create comment, list comment, update comment, delete comment
 
+Authorization: Token 7f9f040d3ef65958dbbcfdac792546c6c6bd7d77
