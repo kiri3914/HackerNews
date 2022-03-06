@@ -54,4 +54,3 @@ https://haker-news-kiri.herokuapp.com/api/v1/post/ # create post, list post, upd
 
 https://haker-news-kiri.herokuapp.com/api/v1/comment/ # create comment, list comment, update comment, delete comment
 
-Authorization: Token d56c9aa3bf86277f4ebea889adf1664e1bfcc87c
