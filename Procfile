@@ -1,1 +1,2 @@
-web: gunicorn HackerNews.wsgi --log-file -
+release: python manage.py migrate
+web: gunicorn HackerNews.wsgi
