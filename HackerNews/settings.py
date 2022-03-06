@@ -136,6 +136,6 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1',
     'http://localhost',
-    'hacker-news-kiri.herokuapp.com'
+    'http://hacker-news-kiri.herokuapp.com'
 ]
 django_heroku.settings(locals())
