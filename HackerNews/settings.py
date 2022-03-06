@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from decouple import config
+import django_heroku
 # Environment variables
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -19,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'haker-news-kiri.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'hacker-news-kiri.herokuapp.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -135,5 +136,6 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1',
     'http://localhost',
-    'haker-news-kiri.herokuapp.com'
+    'hacker-news-kiri.herokuapp.com'
 ]
+django_heroku.settings(locals())
